@@ -29,47 +29,43 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 
-
 ##  Run Locally
-
 $env:FLASK_APP = "main.py"
 $env:FLASK_ENV = "development"
 flask run
 
-## On Unix/Linux/macOS (bash/zsh)
 
+## On Unix/Linux/macOS (bash/zsh)
 export FLASK_APP=main.py
 export FLASK_ENV=development
 flask run
 
+
 ## After running the commands, open your browser and navigate to: 
 http://localhost:5000
 
-##  Run Tests
 
+##  Run Tests
 - python test_cases.py
 
 
 ## 📝 Project Structure
-
 ```
 CourtDataFetcher/
-├── main.py               # Flask app entry point and route handlers
-├── scraper.py            # Logic to scrape case details from Delhi High Court site
-├── models.py             # Database models for case data (SQLite)
-├── dto.py                # Data transfer objects for structured case info
-├── templates/            # HTML templates for web pages
-│   ├── case_input_form.html  # Form for user input (case type, number, year)
-│   └── result.html           # Displays scraped case results and PDFs
-├── test_cases.py         # Unit tests for scraper and app functionality
-├── requirements.txt      # Python dependencies
-└── README.md             # This documentation file
-
+├── main.py               
+├── scraper.py           
+├── models.py             
+├── dto.py                
+├── templates/            
+│   ├── case_input_form.html  
+│   └── result.html           
+├── test_cases.py         
+├── requirements.txt      
+└── README.md             
 ```
 
 
 ## Contributing
-
 ```
 Pull requests are welcome! For significant changes or feature requests, please open an issue first to discuss.
 ```
