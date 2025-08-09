@@ -64,6 +64,9 @@ CourtDataFetcher/
 └── README.md             
 ```
 
+## Demo Video link
+https://youtu.be/28Ex67VuySY?si=NYB1zWvUwx5DsM2N
+
 
 ## Contributing
 ```
